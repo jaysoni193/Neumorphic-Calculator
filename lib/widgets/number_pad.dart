@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import 'package:neumorphic_calculator/calculator_icons.dart';
-import 'package:neumorphic_calculator/utils/enum.dart';
-import 'package:neumorphic_calculator/widgets/neumorphic_button.dart';
-import 'package:neumorphic_calculator/widgets/stacked_button.dart';
+import 'package:smart_calculator/widgets/stacked_button.dart';
+
+import '../calculator_icons.dart';
+import '../utils/enum.dart';
+import 'neumorphic_button.dart';
+
 
 class NumberPad extends StatelessWidget {
   const NumberPad({

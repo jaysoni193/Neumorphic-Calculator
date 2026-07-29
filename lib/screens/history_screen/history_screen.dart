@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:neumorphic_calculator/screens/dashboard_screen/dashboard_controller.dart';
-import 'package:neumorphic_calculator/screens/calculator_screen/calculator_controller.dart';
-import 'package:neumorphic_calculator/screens/history_screen/history_controller.dart';
-import 'package:neumorphic_calculator/screens/settings_screen/settings_controller.dart';
-import 'package:neumorphic_calculator/utils/extensions/extensions.dart';
-import 'package:neumorphic_calculator/utils/settings_model.dart';
-import 'package:neumorphic_calculator/widgets/wipe_overlay_widget.dart';
+
+import '../../utils/extensions/date_time_extension.dart';
+import '../../utils/extensions/string_extension.dart';
+import '../../utils/settings_model.dart';
+import '../../widgets/wipe_overlay_widget.dart';
+import '../calculator_screen/calculator_controller.dart';
+import '../dashboard_screen/dashboard_controller.dart';
+import '../settings_screen/settings_controller.dart';
+import 'history_controller.dart';
 
 class HistoryScreen extends StatefulWidget {
   const HistoryScreen({super.key});

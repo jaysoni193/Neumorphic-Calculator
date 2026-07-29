@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:neumorphic_calculator/utils/extensions/theme_extension.dart';
+
+import '../utils/extensions/theme_extension.dart';
 
 class ConfirmDialog extends StatelessWidget {
   const ConfirmDialog(

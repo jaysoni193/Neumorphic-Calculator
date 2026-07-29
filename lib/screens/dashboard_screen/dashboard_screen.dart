@@ -1,19 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:neumorphic_calculator/screens/calculator_screen/calculator_controller.dart';
-import 'package:neumorphic_calculator/screens/dashboard_screen/dashboard_controller.dart';
-import 'package:neumorphic_calculator/screens/calculator_screen/calculator_screen.dart';
-import 'package:neumorphic_calculator/screens/history_screen/history_screen.dart';
-import 'package:neumorphic_calculator/screens/settings_screen/settings_screen.dart';
-import 'package:neumorphic_calculator/tutorial_screen.dart';
-import 'package:neumorphic_calculator/utils/extensions/extensions.dart';
-import 'package:neumorphic_calculator/widgets/calculator_app_bar.dart';
-import 'package:neumorphic_calculator/widgets/circular_wipe_overlay_widget.dart';
-import 'package:neumorphic_calculator/widgets/custom_scroll_physics.dart';
-import 'package:neumorphic_calculator/widgets/input_widget.dart';
-import 'package:neumorphic_calculator/widgets/keep_alive_wrapper.dart';
-import 'package:neumorphic_calculator/widgets/result_widget.dart';
+import 'package:smart_calculator/screens/history_screen/history_screen.dart';
+
+import '../../tutorial_screen.dart';
+import '../../utils/extensions/string_extension.dart';
+import '../../widgets/calculator_app_bar.dart';
+import '../../widgets/circular_wipe_overlay_widget.dart';
+import '../../widgets/custom_scroll_physics.dart';
+import '../../widgets/input_widget.dart';
+import '../../widgets/keep_alive_wrapper.dart';
+import '../../widgets/result_widget.dart';
+import '../calculator_screen/calculator_controller.dart';
+import '../calculator_screen/calculator_screen.dart';
+import '../settings_screen/settings_screen.dart';
+import 'dashboard_controller.dart';
 
 class DashboardScreen extends StatelessWidget {
   const DashboardScreen({super.key});
@@ -74,8 +75,8 @@ class DashboardScreen extends StatelessWidget {
                           dashCtrl.update();
                         },
                         controller: dashCtrl.pageController,
-                        children: const [
-                          KeepAliveWrapper(child: SettingsScreen()),
+                        children: [
+                          KeepAliveWrapper(child: const SettingsScreen()),
                           KeepAliveWrapper(child: CalculatorScreen()),
                           KeepAliveWrapper(child: HistoryScreen())
                         ],

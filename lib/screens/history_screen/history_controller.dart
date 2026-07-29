@@ -1,9 +1,10 @@
 import 'dart:convert';
 
 import 'package:get/get.dart';
-import 'package:neumorphic_calculator/repo/database.dart';
-import 'package:neumorphic_calculator/utils/const.dart';
-import 'package:neumorphic_calculator/utils/result_model.dart';
+
+import '../../repo/database.dart';
+import '../../utils/const.dart';
+import '../../utils/result_model.dart';
 
 class HistoryController extends GetxController
     with StateMixin<List<ResultModel>> {

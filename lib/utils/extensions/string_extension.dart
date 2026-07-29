@@ -4,7 +4,9 @@ import 'package:fraction/fraction.dart';
 import 'package:intl/intl.dart';
 import 'package:logger/logger.dart';
 import 'package:math_expressions/math_expressions.dart';
-import 'package:neumorphic_calculator/utils/result_model.dart';
+
+import '../result_model.dart';
+
 
 var logger = Logger(
   printer: PrettyPrinter(),

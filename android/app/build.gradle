@@ -29,7 +29,7 @@ def flutterVersionCode = localProperties.getProperty("flutter.versionCode") ?: "
 def flutterVersionName = localProperties.getProperty("flutter.versionName") ?: "1.0"
 
 android {
-    namespace = "com.ragheb.neumorphiccalculator"
+    namespace = "com.ragheb.smartCalculator"
     compileSdk = 36
     ndkVersion = "27.0.12077973"
 
@@ -43,7 +43,7 @@ android {
     }
 
     defaultConfig {
-            applicationId = "com.ragheb.neumorphiccalculator"
+            applicationId = "com.ragheb.smartCalculator"
         minSdkVersion flutter.minSdkVersion
         targetSdk = 36
         versionCode flutterVersionCode.toInteger()

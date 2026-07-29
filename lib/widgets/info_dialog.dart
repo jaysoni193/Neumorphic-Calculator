@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:neumorphic_calculator/screens/settings_screen/settings_controller.dart';
-import 'package:neumorphic_calculator/utils/const.dart';
-import 'package:neumorphic_calculator/utils/extensions/theme_extension.dart';
 import 'package:url_launcher/url_launcher.dart';
+
+import '../screens/settings_screen/settings_controller.dart';
+import '../utils/const.dart';
+import '../utils/extensions/theme_extension.dart';
 
 class InfoDialog extends StatefulWidget {
   const InfoDialog({super.key});

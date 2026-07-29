@@ -1,9 +1,11 @@
 import 'dart:convert';
 import 'package:get/get.dart';
-import 'package:neumorphic_calculator/repo/database.dart';
-import 'package:neumorphic_calculator/utils/const.dart';
-import 'package:neumorphic_calculator/utils/result_model.dart';
-import 'package:neumorphic_calculator/utils/settings_model.dart';
+
+import '../repo/database.dart';
+import '../utils/const.dart';
+import '../utils/result_model.dart';
+import '../utils/settings_model.dart';
+
 
 class PreferencesController extends GetxService {
   PreferencesController(this._repo);

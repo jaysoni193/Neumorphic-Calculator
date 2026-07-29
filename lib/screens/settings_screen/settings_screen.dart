@@ -2,16 +2,17 @@ import 'package:flutter/foundation.dart' show defaultTargetPlatform;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:neumorphic_calculator/controllers/theme_controller.dart';
-import 'package:neumorphic_calculator/screens/settings_screen/settings_controller.dart';
-import 'package:neumorphic_calculator/utils/enum.dart';
-import 'package:neumorphic_calculator/utils/extensions/color_extension.dart';
-import 'package:neumorphic_calculator/utils/extensions/extensions.dart';
-import 'package:neumorphic_calculator/utils/extensions/theme_extension.dart';
-import 'package:neumorphic_calculator/utils/settings_model.dart';
-import 'package:neumorphic_calculator/widgets/button_radius_dialog.dart';
-import 'package:neumorphic_calculator/widgets/neumorphic_button.dart';
+import 'package:smart_calculator/screens/settings_screen/settings_controller.dart';
 import 'package:system_theme/system_theme.dart';
+
+import '../../controllers/theme_controller.dart';
+import '../../utils/enum.dart';
+import '../../utils/extensions/color_extension.dart';
+import '../../utils/extensions/theme_extension.dart';
+import '../../utils/extensions/widget_extension.dart';
+import '../../utils/settings_model.dart';
+import '../../widgets/button_radius_dialog.dart';
+import '../../widgets/neumorphic_button.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});

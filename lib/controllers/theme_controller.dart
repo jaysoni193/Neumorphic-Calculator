@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:neumorphic_calculator/controllers/preference_controller.dart';
-import 'package:neumorphic_calculator/repo/database.dart';
-import 'package:neumorphic_calculator/utils/const.dart';
-import 'package:neumorphic_calculator/utils/enum.dart';
-import 'package:neumorphic_calculator/utils/extensions/color_extension.dart';
+import 'package:smart_calculator/controllers/preference_controller.dart';
 import 'package:system_theme/system_theme.dart';
 import 'package:flutter/foundation.dart' show defaultTargetPlatform;
+import '../repo/database.dart';
+import '../utils/const.dart';
+import '../utils/enum.dart';
+import '../utils/extensions/color_extension.dart';
 
 class ThemeController extends GetxController {
   ThemeController(this._repo, this.preferencesService);

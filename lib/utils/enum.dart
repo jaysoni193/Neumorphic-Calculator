@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:neumorphic_calculator/utils/extensions/extensions.dart';
+
+import 'extensions/string_extension.dart';
 
 enum CalculatorButton {
   allClear('AC'),

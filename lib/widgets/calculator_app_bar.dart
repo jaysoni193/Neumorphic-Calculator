@@ -2,16 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import 'package:neumorphic_calculator/controllers/theme_controller.dart';
-import 'package:neumorphic_calculator/screens/dashboard_screen/dashboard_controller.dart';
-import 'package:neumorphic_calculator/screens/history_screen/history_controller.dart';
-import 'package:neumorphic_calculator/screens/settings_screen/settings_controller.dart';
-import 'package:neumorphic_calculator/utils/const.dart';
-import 'package:neumorphic_calculator/utils/extensions/extensions.dart';
-import 'package:neumorphic_calculator/utils/extensions/theme_extension.dart';
-import 'package:neumorphic_calculator/widgets/confirm_dialog.dart';
-import 'package:neumorphic_calculator/widgets/icon_page_indicator.dart';
-import 'package:neumorphic_calculator/widgets/info_dialog.dart';
+
+import '../controllers/theme_controller.dart';
+import '../screens/dashboard_screen/dashboard_controller.dart';
+import '../screens/history_screen/history_controller.dart';
+import '../screens/settings_screen/settings_controller.dart';
+import '../utils/const.dart';
+import '../utils/extensions/theme_extension.dart';
+import '../utils/extensions/widget_extension.dart';
+import 'confirm_dialog.dart';
+import 'icon_page_indicator.dart';
+import 'info_dialog.dart';
+
 
 class CalculatorAppBar extends StatefulWidget implements PreferredSizeWidget {
   const CalculatorAppBar({super.key});

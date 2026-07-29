@@ -2,14 +2,14 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:neumorphic_calculator/controllers/preference_controller.dart';
-import 'package:neumorphic_calculator/controllers/theme_controller.dart';
-import 'package:neumorphic_calculator/repo/database.dart';
-import 'package:neumorphic_calculator/screens/dashboard_screen/dashboard_screen.dart';
-import 'package:neumorphic_calculator/utils/bindings.dart';
-import 'package:neumorphic_calculator/utils/const.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:smart_calculator/repo/database.dart';
+import 'package:smart_calculator/screens/dashboard_screen/dashboard_screen.dart';
+import 'package:smart_calculator/utils/bindings.dart';
+import 'package:smart_calculator/utils/const.dart';
 import 'package:system_theme/system_theme.dart';
+import 'controllers/preference_controller.dart';
+import 'controllers/theme_controller.dart';
 import 'utils/enum.dart';
 
 Future<void> main() async {

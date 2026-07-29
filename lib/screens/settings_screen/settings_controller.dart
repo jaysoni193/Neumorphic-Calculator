@@ -1,10 +1,11 @@
 import 'dart:convert';
 
 import 'package:get/get.dart';
-import 'package:neumorphic_calculator/repo/database.dart';
-import 'package:neumorphic_calculator/utils/const.dart';
-import 'package:neumorphic_calculator/utils/settings_model.dart';
 import 'package:package_info_plus/package_info_plus.dart';
+
+import '../../repo/database.dart';
+import '../../utils/const.dart';
+import '../../utils/settings_model.dart';
 
 class SettingsController extends GetxController with StateMixin<SettingsModel> {
   late final PackageInfo packageInfo;

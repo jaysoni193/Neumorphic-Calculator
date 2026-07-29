@@ -1,9 +1,10 @@
 import 'package:get/get.dart';
-import 'package:neumorphic_calculator/repo/database.dart';
-import 'package:neumorphic_calculator/screens/dashboard_screen/dashboard_controller.dart';
-import 'package:neumorphic_calculator/screens/calculator_screen/calculator_controller.dart';
-import 'package:neumorphic_calculator/screens/history_screen/history_controller.dart';
-import 'package:neumorphic_calculator/screens/settings_screen/settings_controller.dart';
+
+import '../repo/database.dart';
+import '../screens/calculator_screen/calculator_controller.dart';
+import '../screens/dashboard_screen/dashboard_controller.dart';
+import '../screens/history_screen/history_controller.dart';
+import '../screens/settings_screen/settings_controller.dart';
 
 class InitBindings extends Bindings {
   @override

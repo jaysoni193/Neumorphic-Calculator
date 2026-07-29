@@ -1,4 +1,4 @@
-# Neumorphic Calculator
+# Smart Calculator
 
 A beautifully designed, customizable calculator app with a soft, modern neumorphic style. Built in Flutter for Android and iOS.
 

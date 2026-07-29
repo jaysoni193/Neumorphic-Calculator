@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:neumorphic_calculator/screens/settings_screen/settings_controller.dart';
-import 'package:neumorphic_calculator/utils/enum.dart';
-import 'package:neumorphic_calculator/widgets/number_pad.dart';
-
+import 'package:smart_calculator/utils/enum.dart';
+import 'package:smart_calculator/widgets/number_pad.dart';
+import '../settings_screen/settings_controller.dart';
 import 'calculator_controller.dart';
 
 class CalculatorScreen extends GetView<CalculatorController> {

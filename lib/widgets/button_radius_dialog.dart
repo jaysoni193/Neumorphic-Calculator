@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:neumorphic_calculator/widgets/neumorphic_button.dart';
+
+import 'neumorphic_button.dart';
 
 class ButtonRadiusDialog extends StatefulWidget {
   const ButtonRadiusDialog({super.key, required this.buttonRadius});

@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:neumorphic_calculator/controllers/preference_controller.dart';
-import 'package:neumorphic_calculator/utils/const.dart';
-import 'package:neumorphic_calculator/utils/extensions/theme_extension.dart';
+import 'package:smart_calculator/utils/const.dart';
+import 'package:smart_calculator/utils/extensions/theme_extension.dart';
 import 'package:tutorial_coach_mark/tutorial_coach_mark.dart';
+
+import 'controllers/preference_controller.dart';
 
 class TutorialScreen extends StatefulWidget {
   const TutorialScreen({super.key, required this.child});

@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:neumorphic_calculator/screens/history_screen/history_controller.dart';
-import 'package:neumorphic_calculator/screens/settings_screen/settings_controller.dart';
-import 'package:neumorphic_calculator/utils/extensions/extensions.dart';
-import 'package:neumorphic_calculator/utils/result_model.dart';
+
+import '../../utils/extensions/string_extension.dart';
+import '../../utils/result_model.dart';
+import '../history_screen/history_controller.dart';
+import '../settings_screen/settings_controller.dart';
 
 class CalculatorController extends GetxController {
   static CalculatorController get instance => Get.find<CalculatorController>();
